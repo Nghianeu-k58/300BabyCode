@@ -5,5 +5,8 @@ max-line-length = 150
 exclude = ./requirements.txt,
           ./requirements-dev.txt,
           ./READ.me,
-          .gitignore
+          .gitignore,
+          ./__init__.py,
+          ./*/__init__.py,
+          ./*/*/__init__.py
   
