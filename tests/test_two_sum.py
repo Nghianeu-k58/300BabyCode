@@ -5,12 +5,13 @@ Test two sum problems.
 from unittest import TestCase
 from problems.two_sum import Solution
 
+
 class TestTwoSum(TestCase):
     """Test problem two sum."""
 
     def test_two_sum_successful(self):
         """Test return as expected."""
-        input_list = [2,7,11,15]
+        input_list = [2, 7, 11, 15]
         input_target = 9
 
         expected_output = [0, 1]
