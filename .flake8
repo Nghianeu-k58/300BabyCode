@@ -8,5 +8,11 @@ exclude = ./requirements.txt,
           .gitignore,
           ./__init__.py,
           ./*/__init__.py,
-          ./*/*/__init__.py
-  
+          ./*/*/__init__.py,
+          .github,
+          .pytest_cache,
+          */.pytest_cache,
+          */*/.pytest_cache,
+          ./venv,
+          venv,
+
